@@ -3,7 +3,7 @@ function compute()
     var principal = document.getElementById("principal").value;
     if (principal <= 0) { //Principal Validation
         alert("Enter a positive number greater than 0.");
-        principal.focus(); //Focus on the "principal" field
+        document.getElementById("principal").focus(); //Focus on the "principal" field
     }
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
